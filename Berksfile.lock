@@ -1,0 +1,11 @@
+DEPENDENCIES
+  devopsdance-rssh
+    path: .
+    metadata: true
+
+GRAPH
+  apt (6.1.0)
+  devopsdance-rssh (0.1.0)
+    ubuntu (>= 0.0.0)
+  ubuntu (2.0.1)
+    apt (>= 0.0.0)

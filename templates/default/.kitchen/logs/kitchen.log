@@ -1,0 +1,29 @@
+E, [2017-05-19T13:28:17.941155 #49782] ERROR -- Kitchen: ------Exception-------
+E, [2017-05-19T13:28:17.941263 #49782] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2017-05-19T13:28:17.941296 #49782] ERROR -- Kitchen: Message: Kitchen YAML file /Users/mwolny/Projects/DevopsDance/Repos/chef-cookbook-rssh.git/templates/default/.kitchen.yml does not exist.
+E, [2017-05-19T13:28:17.941316 #49782] ERROR -- Kitchen: ----------------------
+E, [2017-05-19T13:28:17.941327 #49782] ERROR -- Kitchen: ------Backtrace-------
+E, [2017-05-19T13:28:17.941338 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/test-kitchen-1.16.0/lib/kitchen/loader/yaml.rb:71:in `read'
+E, [2017-05-19T13:28:17.941349 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:152:in `data'
+E, [2017-05-19T13:28:17.941360 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:131:in `suites'
+E, [2017-05-19T13:28:17.941371 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:182:in `filter_instances'
+E, [2017-05-19T13:28:17.941382 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:141:in `build_instances'
+E, [2017-05-19T13:28:17.941392 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/test-kitchen-1.16.0/lib/kitchen/config.rb:117:in `instances'
+E, [2017-05-19T13:28:17.941409 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2017-05-19T13:28:17.941420 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2017-05-19T13:28:17.941430 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/test-kitchen-1.16.0/lib/kitchen/command/login.rb:29:in `call'
+E, [2017-05-19T13:28:17.941448 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/test-kitchen-1.16.0/lib/kitchen/cli.rb:53:in `perform'
+E, [2017-05-19T13:28:17.941458 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/test-kitchen-1.16.0/lib/kitchen/cli.rb:241:in `login'
+E, [2017-05-19T13:28:17.941469 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2017-05-19T13:28:17.941479 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2017-05-19T13:28:17.941489 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/test-kitchen-1.16.0/lib/kitchen/cli.rb:334:in `invoke_task'
+E, [2017-05-19T13:28:17.941499 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2017-05-19T13:28:17.941509 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2017-05-19T13:28:17.941520 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/test-kitchen-1.16.0/bin/kitchen:13:in `block in <top (required)>'
+E, [2017-05-19T13:28:17.941530 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/test-kitchen-1.16.0/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2017-05-19T13:28:17.941540 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/gems/test-kitchen-1.16.0/bin/kitchen:13:in `<top (required)>'
+E, [2017-05-19T13:28:17.941550 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/bin/kitchen:22:in `load'
+E, [2017-05-19T13:28:17.941568 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/bin/kitchen:22:in `<main>'
+E, [2017-05-19T13:28:17.941582 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/bin/ruby_executable_hooks:15:in `eval'
+E, [2017-05-19T13:28:17.941593 #49782] ERROR -- Kitchen: /Users/mwolny/.rvm/gems/ruby-2.4.1@devopsdance-chef-cookbook-rssh/bin/ruby_executable_hooks:15:in `<main>'
+E, [2017-05-19T13:28:17.941603 #49782] ERROR -- Kitchen: ----End Backtrace-----
